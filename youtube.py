@@ -1,8 +1,12 @@
-from pytube import YouTube
-from pytube.cli import on_progress
+import os
+try:
+  from pytube import YouTube
+  from pytube.cli import on_progress
+except:
+  os.system("clear")
+  print("você não tem o pytube instalado ,instale com o pip")
 import urllib3
 import time
-import os
 
 link = input("insira o link: ")
 
