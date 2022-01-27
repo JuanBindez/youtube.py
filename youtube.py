@@ -2,7 +2,7 @@ import os
 try:
   from pytube import YouTube
   from pytube.cli import on_progress
-except:
+except ModuleNotFoundError:
   os.system("clear")
   print("você não tem o pytube instalado ,instale com o pip")
 import urllib3
