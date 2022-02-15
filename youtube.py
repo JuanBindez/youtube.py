@@ -37,5 +37,5 @@ try:
 
 except AttributeError:
     os.system("clear")
-    print(color.MAGENTA + "ATENÇÃO HOUVE UM ERRO DE ATRIBUTO!!! tente a versão mais recente do pytube")
+    print(color.VERMELHO + "ATENÇÃO HOUVE UM ERRO DE ATRIBUTO!!! tente a versão mais recente do pytube")
 
